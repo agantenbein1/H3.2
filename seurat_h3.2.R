@@ -18,6 +18,9 @@ suppressPackageStartupMessages({
   library("GenomicRanges")
   library("rtracklayer")
   library("IRanges")
+  library("plotly")
+  library("scatterplot3d")
+  library("processx")
 
 })
 
