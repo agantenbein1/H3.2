@@ -50,3 +50,16 @@ three_d_plot <- plot_ly(
                  zaxis = list(title = 'Late%'))
   )
 three_d_plot
+
+#scatter plot of early vs late (raw counts)
+
+early_late_scatter_count <- ggplot(table, aes(x=early, y=Late)) + geom_point()+
+  labs(title="H3.2 Early vs Late ", x="Early", y = "Late")
+early_late_scatter_count
+ggsave(
+  glue("{result_folder_h3.2}early_late_scatter_count.png"),
+  plot = early_late_scatter_count,
+  width = 8,
+  height = 5,
+  device = "png"
+)
