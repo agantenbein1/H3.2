@@ -9,4 +9,6 @@ Run Code Order:
 6. percent_tbl( calculates the percentage of read count per cell for each phase and makes a scatter plot of the early phase% vs late% as well as a 3d graph of early% vs mid% vs late%)
 7. percent_umaps( makes 3 umap for each phase and is scaled by the phase percentage)
 8. pseudotime.R (Umap scaled by pseudtime , the early vs late scaled by pseudotime and 3D Scatter Plot scaled by Pseudotime Score)
+9. indiviualCluster ( using bw_loci found the overlap of the relpication time and individual clusters)
+10. milestone( from the milestone percentage seperated milestone 2 and 4 that had the cofidence of over 75% into a seperate table. Then made a umap grouped by the previous table of milestone 2 and 4)
    
