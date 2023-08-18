@@ -7,5 +7,5 @@ Run Code Order:
 4. early_mid_late_tbl(table to show the read counts at each different mESC replication timing data (early, mid, late) at the different cell ids, and indicates which phase had the most read counts)
 5. EarlyMidLateTwoFoldChange (A table showing at least two-fold change of h3.2 between the different phases(early,mid, late), and 3 umaps highlighting each phase, and bar graph with how many cells per phase)
 6. percent_tbl( calculates the percentage of read count per cell for each phase and makes a scatter plot of the early phase% vs late% as well as a 3d graph of early% vs mid% vs late%)
-7. percent_umaps( makes 3 umap for each phase and is scaled by the phase percentage) 
+7. percent_umaps( makes 3 umap for each phase and is scaled by the phase percentage)
    
